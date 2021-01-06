@@ -14,6 +14,11 @@ jobs:
           submodules: false
           fetch-depth: 0
 
+      - name: Fetch NPM dependencies
+        run: |
+          npm install -g @babel/cli @babel/core
+          yarn
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
