@@ -33,10 +33,10 @@ jobs:
 
       - uses: actions/checkout@master
       - name: Deploy
-        uses: garygrossgarten/github-action-scp@release
-        with:
-          local: ./public
-          remote: /var/lib/liputenpo/site
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          privateKey: ${{ secrets.SSH_KEY }}
+        run: |
+          echo "$SSH_KEY" > key && chmod 600 key
+          scp -i key -oStrictHostKeyChecking=no -r ./public/* ${SSH_USERNAME}@${SSH_HOST}/var/lib/liputenpo/site
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
