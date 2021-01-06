@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<h1>
+    lipu sin
+</h1>
+
+<p>
+    ni li lipu sin pi lipu tenpo. o lukin e ona!
+</p>
+
+<br>
+
+{{ $pages := .Pages }}
+{{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+{{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
+
+{{ range $paginator.Pages }}
+
+<div class="lt-card lt-article-card" onclick="location.href = {{ .RelPermalink }}" role="button">
+    {{ with .Params.thumbnail }}
+        <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
+    {{ end }}
+
+    <div class="lt-article-card-row">
+        <span class="lt-article-card-title">{{ .Title }}</span>
+        <div class="lt-article-card-row-spacer"></div>
+        {{ if .Params.author }}<span class="lt-article-card-author">tan {{ .Params.author }}</span>{{ end }}
+    </div>
+
+    <div class="lt-article-card-summary">
+        {{ with .Description }}
+            {{ $.Scratch.Set "summary" (markdownify .) }}
+        {{ else }}
+            {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
+        {{ end }}
+        {{ $.Scratch.Get "summary" }}
+    </div>
+
+    {{ with .Params.categories }}
+    <div class="lt-article-card-row">
+        <div class="lt-article-card-row-spacer"></div>
+        {{ range first 1 . }}
+        <a class="lt-article-card-chip" href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}
+
+<nav>{{ template "_internal/pagination.html" . }}</nav>
+
+{{ end }}

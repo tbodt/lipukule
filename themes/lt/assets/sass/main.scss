@@ -1,0 +1,13 @@
+@import "reset";
+@import "colors";
+@import "header";
+@import "type";
+@import "card";
+@import "layout";
+@import "footer";
+
+body {
+    padding-bottom: 5rem;
+    background-color: var(--body);
+    color: var(--on-body);
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+
+.lt-content {
+    * {
+        font-family: Radley;
+        font-size: 14pt;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20pt;
+        letter-spacing: 0px;
+    }
+
+    h1 {
+        font-family: Raleway;
+        font-size: 20pt;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28pt;
+        letter-spacing: 0px;
+    }
+}

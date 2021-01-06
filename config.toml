@@ -1,0 +1,18 @@
+baseURL = "http://liputenpo.org/"
+languageCode = "tpo"
+title = "lipu tenpo"
+theme = "lt"
+paginate = 6
+DefaultContentLanguage = "tpo"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[params]
+    description = "lipu sona pi toki pona."
+
+[languages]
+    [languages.tpo]
+    contentDir = "content/tpo"
+    languageName = "toki pona"
+    weight = 1
