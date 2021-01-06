@@ -6,7 +6,7 @@
 <div class="lt-card-list">
     {{ range .Pages }}
 
-    <div class="lt-card lt-article-card">
+    <div class="lt-card lt-article-card" onclick="location.href = {{ .RelPermalink }}" role="button">
         {{ with .Params.thumbnail }}
             <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
         {{ end }}
