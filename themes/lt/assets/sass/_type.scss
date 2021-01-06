@@ -19,4 +19,12 @@
         line-height: 28pt;
         letter-spacing: 0px;
     }
+
+    p {
+        line-height: 23pt;
+    }
+
+    p + p {
+        margin-top: 20pt;
+    }
 }
