@@ -31,7 +31,6 @@ jobs:
       - name: Build Site
         run: hugo --minify
 
-      - uses: actions/checkout@master
       - name: Deploy
         run: |
           ls
