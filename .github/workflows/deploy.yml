@@ -38,5 +38,5 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          source: "public/*"
+          source: "public/"
           target: "/var/lib/liputenpo/site"
