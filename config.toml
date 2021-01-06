@@ -1,4 +1,4 @@
-baseURL = "http://liputenpo.org/"
+baseURL = "https://liputenpo.org/"
 languageCode = "tpo"
 title = "lipu tenpo"
 theme = "lt"
