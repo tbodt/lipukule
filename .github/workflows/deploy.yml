@@ -35,7 +35,7 @@ jobs:
         run: |
           ls
           echo "$SSH_KEY" > key && chmod 600 key
-          scp -i key -oStrictHostKeyChecking=no -r ./public/* ${SSH_USERNAME}@${SSH_HOST}/var/lib/liputenpo/site
+          scp -i key -oStrictHostKeyChecking=no -r ./public/* ${SSH_USERNAME}@${SSH_HOST}:/var/lib/liputenpo/site
         env:
           SSH_KEY: ${{ secrets.SSH_KEY }}
           SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
