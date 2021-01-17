@@ -7,12 +7,14 @@ categories:
   - lawa
 ---
 
-lon ma USA la jan lawa Tana Ton [Trump] li tawa la, ona li weka lawa pi awen pona e jan LGBTQ+
+lon ma USA la jan lawa Tona Tunpa [Trump] li tawa la, ona li weka lawa pi awen pona e jan LGBTQ+ 
 
-jan li utala lon tomo lawa pi ma Mewika la, kulupu pi sijelo pona pi pali jan jan (Department of Health and Human Services [HHS]) li ante e lawa pi pali ike ala tawa jan kule. 
+jan li utala lon tomo lawa pi ma Mewika la, kulupu pi sijelo pona pi pali jan (Department of Health and Human Services [HHS]) li ante e lawa pi pali ike ala tawa jan kule. 
 
-lawa sin li toki e ni: “jan HHS ken pana ala e mani tawa jan LGBTQ+, tan na sin sewi pi jan HHS.”
-lawa sin li toki e ni: “jan HHS ken oko ala e unpa olin pi tonsi sama.” 
+lawa sin li toki e ni: “jan HHS ken pana ala e mani tawa jan LGBTQ+, tan nasin sewi pi jan HHS.”
+
+lawa sin li toki e ni: “jan HHS ken oko ala e unpa olin pi tonsi sama.”
+
 lawa sin li toki e ni: “jan HHS ken pana ala e jan lili pi mama ala tawa jan kule.”
 
 tenpo pini la, lawa ni li toki ante e ni.
