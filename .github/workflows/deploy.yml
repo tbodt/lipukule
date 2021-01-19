@@ -29,12 +29,14 @@ jobs:
           extended: true
 
       - uses: actions/checkout@v2
-        name: Build & Deploy Site
+        name: Checkout Site
         with:
           repository: 'lipukule/lipukule.github.io'
           submodules: false
           fetch-depth: 0
           path: './public/'
+
+      - name: Build & Deploy Site
         run: |
           hugo --minify
           git config user.name github-actions
