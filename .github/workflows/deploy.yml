@@ -28,16 +28,20 @@ jobs:
           hugo-version: '0.79.1'
           extended: true
 
-      - name: Build Site
+      - uses: actions/checkout@v2
+        name: Checkout Current Site
+        with:
+          repository: 'lipukule/lipukule.github.io'
+          submodules: false
+          fetch-depth: 0
+          path: './public/'
+
+      - name: Update Site
         run: hugo --minify
 
-      - name: Deploy
-        run: |
-          ls
-          ls -al ./public/
-          echo "$SSH_KEY" > key && chmod 600 key
-          scp -i key -oStrictHostKeyChecking=no -r ./public/* ${SSH_USERNAME}@${SSH_HOST}:/var/lib/liputenpo/site
-        env:
-          SSH_KEY: ${{ secrets.SSH_KEY }}
-          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
+      - uses: EndBug/add-and-commit@v7
+        name: Deploy Site
+        with:
+          message: 'Deploy ste'
+          add: '--all'
+          cwd: './public/'

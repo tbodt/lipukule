@@ -1,6 +1,6 @@
-baseURL = "https://liputenpo.org/"
+baseURL = "https://lipukule.github.io/"
 languageCode = "tpo"
-title = "lipu tenpo"
+title = "lipu kule"
 theme = "lt"
 paginate = 6
 DefaultContentLanguage = "tpo"
