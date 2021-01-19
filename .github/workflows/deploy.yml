@@ -38,6 +38,7 @@ jobs:
 
       - name: Build & Deploy Site
         run: |
+          echo $PWD
           hugo --minify
           git config user.name github-actions
           git config user.email github-actions@github.com
