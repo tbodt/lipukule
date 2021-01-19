@@ -36,7 +36,7 @@ jobs:
           fetch-depth: 0
           path: './public/'
 
-      - name: Build & Deploy Site
+      - name: Build Site
         run: |
           hugo --minify
           cd public
@@ -45,4 +45,9 @@ jobs:
           git config user.email github-actions@github.com
           git add --all
           git commit -m "Deploy site"
-          git push
+
+      - name: Deploy Site
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
