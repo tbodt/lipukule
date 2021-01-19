@@ -29,19 +29,16 @@ jobs:
           extended: true
 
       - uses: actions/checkout@v2
-        name: Checkout Current Site
+        name: Build & Deploy Site
         with:
           repository: 'lipukule/lipukule.github.io'
           submodules: false
           fetch-depth: 0
           path: './public/'
-
-      - name: Update Site
-        run: hugo --minify
-
-      - uses: EndBug/add-and-commit@v7
-        name: Deploy Site
-        with:
-          message: 'Deploy ste'
-          add: '--all'
-          cwd: './public/'
+        run: |
+          hugo --minify
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add --all
+          git commit -m "Deploy site"
+          git push
