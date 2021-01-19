@@ -8,3 +8,5 @@ thumbnail: https://images.unsplash.com/photo-1524964056700-f5738231ad5e?ixid=MXw
 ---
 
 kama pona
+
+mi {{< sonalili lanpan >}} e sina.
