@@ -50,7 +50,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           repository: 'lipukule/lipukule.github.io'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           branch: ${{ github.ref }}
           directory: './public/'
           force: true
