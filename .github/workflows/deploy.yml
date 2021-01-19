@@ -49,7 +49,7 @@ jobs:
       - name: Deploy Site
         uses: ad-m/github-push-action@master
         with:
-          repository: 'https://github.com/lipukule/lipukule.github.io.git'
+          repository: 'lipukule/lipukule.github.io'
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           directory: './public/'
