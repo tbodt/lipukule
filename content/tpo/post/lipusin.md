@@ -3,7 +3,7 @@ title: lipu kule li kama lon
 author: jan Ana
 date: '2021-01-19'
 categories:
-  - lipu
+  - lipu ale
   - nasin jan
 ---
 
