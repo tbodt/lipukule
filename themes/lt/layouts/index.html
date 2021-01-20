@@ -50,6 +50,10 @@
     {{ end }}
 </div>
 
+<noscript>
+    <a href="{{ .RelPermalink }}">tawa lipu {{ .Title }}</a>
+</noscript>
+
 {{ end }}
 
 <nav>{{ template "_internal/pagination.html" . }}</nav>
