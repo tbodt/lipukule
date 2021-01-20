@@ -68,6 +68,10 @@
         color: var(--on-body);
         border: 1px solid var(--chip);
         background-color: var(--chip);
+
+        + .lt-article-card-chip {
+            margin-left: 10px;
+        }
     }
     &-row {
         display: flex;
