@@ -1,8 +1,8 @@
 {{ define "heading" }}
 
-<h1>
+<h2>
     lipu sin
-</h1>
+</h2>
 
 <p>
     ni li lipu sin pi lipu kule. o lukin e ona!
@@ -26,9 +26,9 @@
     {{ end }}
 
     <div class="lt-article-card-row">
-        <span class="lt-article-card-title">{{ .Title }}</span>
+        <h3 class="lt-article-card-title">{{ .Title }}</h3>
         <div class="lt-article-card-row-spacer"></div>
-        {{ if .Params.author }}<span class="lt-article-card-author">tan {{ .Params.author }}</span>{{ end }}
+        {{ if .Params.author }}<address class="lt-article-card-author">tan {{ .Params.author }}</address>{{ end }}
     </div>
 
     <div class="lt-article-card-summary">
