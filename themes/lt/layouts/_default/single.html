@@ -1,11 +1,13 @@
+{{ define "heading" }}
+<h1>{{ .Title }} <span class="lt-article-card-author">tan {{ .Params.author }}</span></h1>
+<br>
+{{ end }}
+
 {{ define "main" }}
 
 {{ with .Params.thumbnail }}
 <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
 {{ end }}
-
-<h1>{{ .Title }} <span class="lt-article-card-author">tan {{ .Params.author }}</span></h1>
-<br>
 
 {{ .Content }}
 
