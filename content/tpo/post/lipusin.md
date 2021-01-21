@@ -19,6 +19,6 @@ jan Jan li toki e ni: “jan lawa pi lipu ni li pali ike. ona li ken ala lawa po
 
 lawa li toki e ni tawa kulupu: “sina wile ala wile ante e lawa?” jan mute li toki e ni: wile. lawa li toki e ni tawa jan pali taso: “sina wile ala wile ante e lawa?” jan pali li toki e ni: ala.
 
-tan ni la, lawa li ante ala. ni la, jan Jan li weka tan kulupu ni, {{< sonalili kan >}} pali ona pi lipu tenpo.
+tan ni la, lawa li ante ala. ni la, jan Jan li weka tan kulupu ni, kan pali ona pi lipu tenpo.
 
 jan Jan li pali e kulupu sin. jan mute li kama tawa ona. kulupu li pali e lipu sin. nimi ona li ‘lipu kule’. ona la, sitelen ale pona li ken lon. tenpo ni la, kulupu li lili; taso, ona li ken kama suli li ken kama pona tawa ale.
