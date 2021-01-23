@@ -10,6 +10,8 @@
         padding: 10px;
         font-family: Raleway;
         color: var(--on-body);
+        border: 1px solid var(--rim);
+        border-radius: 3px;
     }
     .lt-footer-card--waster {
         display: none;
