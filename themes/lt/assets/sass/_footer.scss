@@ -16,6 +16,16 @@
     }
 }
 
+.lt-site-footer {
+    width: 100vw;
+    text-align: center;
+    margin-top: 4rem;
+
+    a {
+        color: var(--link);
+    }
+}
+
 @media screen and (max-width: 799px) {
     .lt-nav-footer {
         flex-direction: column;
