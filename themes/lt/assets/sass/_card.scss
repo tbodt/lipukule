@@ -12,6 +12,7 @@ noscript + .lt-article-card {
     background-color: var(--body);
     transition: 120ms transform;
     border-radius: 3px;
+    border: 1px solid var(--rim);
 
     &:hover {
         cursor: pointer;

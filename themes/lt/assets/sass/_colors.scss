@@ -7,6 +7,8 @@
     --chip: rgba(18, 18, 18, 0.2);
 
     --link: #228199;
+
+    --rim: rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +22,8 @@
     --chip: rgba(18, 18, 18, 0.2);
 
     --link: #8adcff;
+
+    --rim: rgba(255, 255, 255, 0.1);
 }
 
 }
