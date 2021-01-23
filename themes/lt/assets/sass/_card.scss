@@ -76,7 +76,10 @@ noscript + .lt-article-card {
     }
     &-row {
         display: flex;
-        margin-top: 24px;
+
+        &:not(:first-child) {
+            margin-top: 24px;
+        }
 
         &-spacer {
             flex-grow: 1;
