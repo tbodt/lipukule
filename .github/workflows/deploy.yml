@@ -38,6 +38,7 @@ jobs:
 
       - name: Build Site
         run: |
+          git rm -rf *
           hugo --minify
           cd public
           git config --local --unset-all "http.https://github.com/.extraheader"
