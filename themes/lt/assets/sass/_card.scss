@@ -4,14 +4,14 @@
     padding: 24px;
 }
 
+noscript + .lt-article-card {
+    margin-top: 40px;
+}
+
 .lt-article-card {
     background-color: var(--body);
     transition: 120ms transform;
     border-radius: 3px;
-
-    + .lt-article-card {
-        margin-top: 40px;
-    }
 
     &:hover {
         cursor: pointer;
