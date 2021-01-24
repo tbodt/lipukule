@@ -4,7 +4,7 @@
     padding: 24px;
 }
 
-noscript + .lt-article-card {
+noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     margin-top: 40px;
 }
 
