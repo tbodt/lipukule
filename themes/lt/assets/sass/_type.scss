@@ -27,6 +27,21 @@
     p + p {
         margin-top: 20pt;
     }
+
+    ul {
+        margin-top: 20pt;
+        margin-bottom: 20pt;
+    }
+
+    ul li {
+        list-style-type: circle;
+        margin-left: 2rem;
+    }
+
+    strong {
+        font-weight: 900;
+        opacity: 1.0;
+    }
 }
 
 address {
