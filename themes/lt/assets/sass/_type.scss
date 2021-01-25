@@ -20,6 +20,19 @@
         letter-spacing: 0px;
     }
 
+    h3 {
+        font-family: Raleway;
+        font-size: 18pt;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28pt;
+        letter-spacing: 0px;
+    }
+
+    h1, h2, h3 {
+        margin-top: 1rem;
+    }
+
     p {
         line-height: 23pt;
     }
@@ -41,6 +54,26 @@
     strong {
         font-weight: 900;
         opacity: 1.0;
+    }
+
+    *:not(pre) > code {
+        background-color: var(--code);
+        font-family: monospace;
+        padding: 2pt;
+        border-radius: 3px;
+    }
+
+    pre {
+        background-color: var(--big-code);
+        padding: 1rem;
+        margin: 1rem 0;
+        overflow: auto;
+        border-radius: 3px;
+        border: 1px solid var(--rim);
+
+        > code {
+            font-family: monospace;
+        }
     }
 }
 
