@@ -75,6 +75,16 @@
             font-family: monospace;
         }
     }
+
+    main {
+        a {
+            color: var(--link);
+    
+            &:visited {
+                filter: brightness(-10%);
+            }
+        }
+    }
 }
 
 address {
