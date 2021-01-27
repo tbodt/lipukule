@@ -76,6 +76,11 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     }
     &-row {
         display: flex;
+        align-items: baseline;
+
+        h3 {
+            margin-top: 0;
+        }
 
         &:not(:first-child) {
             margin-top: 24px;
