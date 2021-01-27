@@ -10,6 +10,8 @@ DefaultContentLanguage = "tpo"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
+    lipu = "/lipu/:year/:month/:day/:slug/"
+    mi = "/mi/:slug/"
 
 [params]
     description = "lipu sona pi toki pona."
