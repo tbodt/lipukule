@@ -16,7 +16,7 @@ ni li ike tawa mute lon kulupu. waso pimeja li toki e ni: “sitelen ale li nasi
 
 taso jan lawa li wile ala kute. ona li toki e ni: “mi mute li toki lon insa tomo pi jan ale ala. mi wile ala ante e lawa pi lipu ni. lawa pi nasin jan taso li ken ante.”
 
-jan Jan li toki e ni: “jan lawa pi lipu ni li pali ike. ona li ken ala lawa pona e kulupu. lawa o ante. lawa li ante ala la mi weka sonalili kan pali mi.”
+jan Jan li toki e ni: “jan lawa pi lipu ni li pali ike. ona li ken ala lawa pona e kulupu. lawa o ante. lawa li ante ala la mi weka kan pali mi.”
 
 lawa li toki e ni tawa kulupu: “sina wile ala wile ante e lawa?” jan mute li toki e ni: wile. lawa li toki e ni tawa jan pali taso: “sina wile ala wile ante e lawa?” jan pali li toki e ni: ala.
 
