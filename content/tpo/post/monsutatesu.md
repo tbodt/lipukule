@@ -4,6 +4,7 @@ author: kala pona Tonyu
 date: '2021-01-29'
 categories:
   - nasin pi ma pona
+  - nimi pi pu ala
   - nasin toki pi toki pona
 ---
 
