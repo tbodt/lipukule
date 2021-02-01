@@ -1,4 +1,4 @@
-:root {
+@mixin walo {
     --header: #141414;
     --on-header: #ffffff;
 
@@ -14,9 +14,7 @@
     --big-code: rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-
-:root {
+@mixin pimeja {
     --header: #141414;
     --on-header: #ffffff;
 
@@ -32,4 +30,25 @@
     --rim: rgba(255, 255, 255, 0.1);
 }
 
+:root {
+    @include walo;
+}
+
+@media (prefers-color-scheme: dark) {
+
+:root {
+    @include pimeja;
+}
+
+}
+
+[data-nasin-lukin="walo"] {
+    @include walo;
+}
+[data-nasin-lukin="pimeja"] {
+    @include pimeja;
+}
+
+* {
+    transition: color 200ms, background-color 200ms;
 }
