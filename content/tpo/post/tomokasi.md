@@ -5,6 +5,7 @@ date: '2021-02-07'
 categories:
   - ma lon
   - sona kasi
+thumbnail: ../../../static/images/tomokasi/1.jpg
 ---
 
 lon ma Olako (Oracle) pi ma Alisona (Arizona, U.S.) la, ma pi telo ala en weka pi ijo ante ale la, tomo suli li lon. ona li tomo walo pi kiwen lukin mute. taso, ante tawa ni la insa ona li jo e ijo mute. insa ona, la kasi li lon! kasi mute en ma ante li lon insa pi tomo walo ni. jan li sona e tomo walo ni: ona li tomo kasi nanpa tu.
@@ -17,7 +18,7 @@ lon ma Olako (Oracle) pi ma Alisona (Arizona, U.S.) la, ma pi telo ala en weka p
 
 lon tomo ni la, ma ante mute li lon. ma pi kasi mute en ma pi kasi lili li lon. lon poka ni la, telo suli li lon; telo ni li jo e kiwen kala mute. telo mute li awen lon ma kasi poka, li lon e kasi ante lon telo. lon poka pi ma ni, la ma pi telo lili li lon. pini la, ma pi telo ala li lon monsi tomo. o sona e ni: tomo ni li lon e kasi ante mute.
 
-taso… tan seme la jan li wile e kasi ante mute? tan ni: kasi ante mute li ken pana e kon tawa tomo ni. kon li lon, la telo li ken kama tan kon, li ken tawa anpa. ni li ken pona sin e kasi, li ken lon e sike.
+taso… tan seme la jan li wile e kasi ante mute? tan wan li ken sike ni: kasi ante mute li ken pana e kon tawa tomo ni. kon li lon, la telo li ken kama tan kon, li ken tawa anpa. ni li ken pona sin e kasi, li ken lon e sike telo.
 
 suli la ijo ante ala li ken ante e insa tomo. tomo li ken lanpan e suno taso tan ma lon; ijo ante ale li tan kasi tomo. ilo suli li lawa e kon pi tomo ni, li ken ante e ona. taso tomo li lanpan ala e kon tan ma ante. kon lili li ken tawa tan ma ante, taso jan li alasa e ala pi ijo ni.
 
