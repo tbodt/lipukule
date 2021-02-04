@@ -6,6 +6,7 @@ categories:
   - moku
   - pan
   - pali moku
+thumbnail: "/images/pansikesuwi/29.jpg"
 ---
 
 nasin pali pi pan sike suwi
