@@ -15,7 +15,18 @@
             <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
         {{ end }}
 
-        <div class="len"></div>
+        <div class="len">
+            <div>
+                <span>len tan ni:</span>
+                <ul>
+                    {{ with .Params.categories }}
+                    {{ range first 1 . }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
 
         <div class="lt-article-card-row">
             <span class="lt-article-card-title" href="{{ .RelPermalink }}">{{ .Title }}</span>

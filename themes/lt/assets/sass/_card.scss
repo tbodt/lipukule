@@ -99,22 +99,23 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
 
 .lipu-len {
     border-radius: 3px;
-
+    
     .len {
-        display: initial;
+        display: grid;
         position: absolute;
+        place-items: center;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        transition: 100ms all;
-        background-color: rgba(0,0,0, 0.1);
-        backdrop-filter: blur(20px);
+        transition: 300ms all;
+        background-color: #121212;
+        color: white;
         pointer-events: none;
     }
 
     &:hover .len {
         background-color: transparent;
-        backdrop-filter: blur(0px);
+        color: transparent;
     }
 }
