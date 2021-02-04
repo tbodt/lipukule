@@ -13,6 +13,7 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     transition: 120ms transform;
     border-radius: 3px;
     border: 1px solid var(--rim);
+    position: relative;
 
     &:hover {
         cursor: pointer;
@@ -89,5 +90,29 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
         &-spacer {
             flex-grow: 1;
         }
+    }
+}
+
+.len {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 100ms all;
+}
+
+.lipu-len {
+    border-radius: 3px;
+
+    .len {
+        background-color: rgba(0,0,0, 0.1);
+        backdrop-filter: blur(20px);
+        pointer-events: none;
+    }
+
+    &:hover .len {
+        background-color: transparent;
+        backdrop-filter: blur(0px);
     }
 }

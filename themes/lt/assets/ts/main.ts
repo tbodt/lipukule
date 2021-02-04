@@ -31,4 +31,35 @@ function applyScheme(): void {
     }
 }
 
+function addlen(len: string): void {
+    let mu = (JSON.parse(localStorage.getItem("lens")) || []) as string[]
+    mu.push(len)
+    localStorage.setItem("lens", JSON.stringify(mu))
+    applylens()
+}
+
+function removelen(len: string): void {
+    let mu = (JSON.parse(localStorage.getItem("lens")) || []) as string[]
+    mu = mu.filter(item => item != len)
+    localStorage.setItem("lens", JSON.stringify(mu))
+    applylens()
+}
+
+function applylens(): void {
+    let items = (JSON.parse(localStorage.getItem("lens")) || []) as string[]
+
+    document.querySelectorAll(`.lt-card.lt-article-card`).forEach(item => {
+        let a: string[] = []
+        item.querySelectorAll(`.lt-article-card-chip`).forEach(item => {
+            a.push(item.textContent)
+        })
+        if (a.some(item => items.includes(item))) {
+            item.classList.add("lipu-len")
+        } else {
+            item.classList.remove("lipu-len")
+        }
+    })
+}
+
 applyScheme()
+applylens()

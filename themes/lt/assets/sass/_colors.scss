@@ -49,6 +49,6 @@
     @include pimeja;
 }
 
-* {
+*:not(button) {
     transition: color 200ms, background-color 200ms;
 }

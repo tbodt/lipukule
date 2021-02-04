@@ -3,6 +3,10 @@
 <br>
 {{ .Content }}
 <br>
+<button onclick="addlen('{{ .Title }}')">o len e {{ .Title }}</button>
+<button onclick="removelen('{{ .Title }}')">o len ala e {{ .Title }}</button>
+<br>
+<br>
 <div class="lt-card-list">
     {{ range .Pages }}
 
@@ -10,6 +14,8 @@
         {{ with .Params.thumbnail }}
             <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
         {{ end }}
+
+        <div class="len"></div>
 
         <div class="lt-article-card-row">
             <span class="lt-article-card-title" href="{{ .RelPermalink }}">{{ .Title }}</span>
