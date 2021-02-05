@@ -20,7 +20,19 @@
 
 {{ range $paginator.Pages }}
 
+{{ if eq .Params.color "toki" }}
+<div class="lt-card lt-article-card" style="background-color: var(--lojunu);" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ else if eq .Params.color "ilo" }}
+<div class="lt-card lt-article-card" style="background-color: var(--loje);" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ else if eq .Params.color "sona" }}
+<div class="lt-card lt-article-card" style="background-color: var(--lojelo);" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ else if eq .Params.color "moku" }}
+<div class="lt-card lt-article-card" style="background-color: var(--graso);" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ else if eq .Params.color "lipu kule" }}
+<div class="lt-card lt-article-card" style="background-color: var(--lasunu);" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ else }}
 <div class="lt-card lt-article-card" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{ end }}
     {{ with .Params.thumbnail }}
         <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
     {{ end }}
@@ -41,7 +53,10 @@
     <div class="lt-article-card-row">
         <h3 class="lt-article-card-title">{{ .Title }}</h3>
         <div class="lt-article-card-row-spacer"></div>
-        {{ if .Params.author }}<address class="lt-article-card-author">tan {{ .Params.author }}</address>{{ end }}
+		{{ with .Params.author }}
+		{{range first 2 . }}
+		<address class="lt-article-card-author"> <a href="{{ relURL (print "/author/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
+		{{ end }}
     </div>
 
     <div class="lt-article-card-summary">

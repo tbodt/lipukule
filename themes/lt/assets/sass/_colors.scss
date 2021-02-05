@@ -1,22 +1,53 @@
 @mixin walo {
     --header: #141414;
     --on-header: #ffffff;
+	
+	--h-lojunu: #ffa4c5;
+	--h-loje: #ffa893;
+	--h-lojelo: #ffb777;
+	--h-jelo: #cac976;
+	--h-graso: #8ed890;
+	--h-laso: #66dfc2;
+	--h-blaso: #5bddfd;
+	--h-lasewi: #76d0ff;
+	--h-lasunu: #b3beff;
+	--h-unu: #fbadff;
 
     --body: #ffffff;
     --on-body: #112211;
     --chip: rgba(18, 18, 18, 0.2);
 
-    --link: #228199;
-
     --rim: rgba(0, 0, 0, 0.1);
 
     --code: rgba(0, 0, 0, 0.05);
     --big-code: rgba(0, 0, 0, 0.1);
+	
+	--lojunu: #ffa4c5;
+	--loje: #ffa893;
+	--lojelo: #ffb777;
+	--jelo: #cac976;
+	--graso: #8ed890;
+	--laso: #66dfc2;
+	--blaso: #5bddfd;
+	--lasewi: #76d0ff;
+	--lasunu: #b3beff;
+	--unu: #fbadff;
 }
 
 @mixin pimeja {
     --header: #141414;
     --on-header: #ffffff;
+	
+	--h-lojunu: #ffa4c5;
+	--h-loje: #ffa893;
+	--h-lojelo: #ffb777;
+	--h-jelo: #cac976;
+	--h-graso: #8ed890;
+	--h-laso: #66dfc2;
+	--h-blaso: #5bddfd;
+	--h-lasewi: #76d0ff;
+	--h-lasunu: #b3beff;
+	--h-unu: #fbadff;
 
     --body: #1F1F1F;
     --on-body: #eff0f1;
@@ -24,8 +55,17 @@
 
     --code: rgba(255, 255, 255, 0.1);
     --big-code: #121212;
-
-    --link: #8adcff;
+	
+	--lojunu: #7f3849;
+	--loje: #7f3a30;
+	--lojelo: #6a4223;
+	--jelo: #4a4b22;
+	--graso: #2d532d;
+	--laso: #195647;
+	--blaso: #135566;
+	--lasewi: #1f4f7e;
+	--lasunu: #3f457e;
+	--unu: #653c68;
 
     --rim: rgba(255, 255, 255, 0.1);
 }

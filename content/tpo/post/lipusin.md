@@ -1,11 +1,13 @@
 ---
 title: lipu kule li kama lon
-author: jan Ana
+author:
+  - jan Ana
 date: '2021-01-20'
 categories:
   - lipu ale
   - nasin jan
   - lipu kule
+color: lipu kule
 ---
 
 lipu sin pi toki pona li kama lon. nimi ona li ‘lipu tenpo’. jan pali pi lipu tenpo li wile pana e lipu sin lon tenpo mun kama. toki pona la, ona li lipu nanpa wan sama ni.

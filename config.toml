@@ -15,6 +15,11 @@ DefaultContentLanguage = "tpo"
 
 [params]
     description = "lipu sona pi toki pona."
+	
+[taxonomies]
+	category = "categories"
+	color = "color"
+	author = "author"
 
 [languages]
     [languages.tpo]
