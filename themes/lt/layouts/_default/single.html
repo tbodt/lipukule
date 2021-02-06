@@ -1,5 +1,10 @@
 {{ define "heading" }}
-<h2>{{ .Title }}<br><address class="lt-article-card-author">tan {{ .Params.author }}</address> <span class="lt-article-card-author" style="margin-left: 3rem;"> lipu ni li jo e nimi {{ .WordCount }}</span></h2>
+<h2>{{ .Title }}<br>
+		{{ with .Params.author }}
+		{{range first 2 . }}
+		<address class="lt-article-card-author"> <a href="{{ relURL (print "/author/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
+		{{ end }}
+		<span class="lt-article-card-author" style="margin-left: 3rem;"> lipu ni li jo e nimi {{ .WordCount }}</span></h2>
 <br>
 {{ end }}
 

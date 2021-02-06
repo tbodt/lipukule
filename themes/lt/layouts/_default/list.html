@@ -1,11 +1,10 @@
-{{ define "main" }}
+{{ define "heading" }}
 <h1>{{ .Title }}</h1>
-<br>
 {{ .Content }}
-<br>
 <button onclick="addlen('{{ .Title }}')">o len e {{ .Title }}</button>
 <button onclick="removelen('{{ .Title }}')">o len ala e {{ .Title }}</button>
-<br>
+{{ end }}
+{{ define "main" }}
 <br>
 <div class="lt-card-list">
     {{ range .Pages }}
