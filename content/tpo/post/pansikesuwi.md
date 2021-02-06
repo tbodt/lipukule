@@ -109,7 +109,7 @@ o moku
 ![pan suwi lete lon kiwen poki](/images/pansikesuwi/29.jpg)
 ![soweli li lukin e pan suwi](/images/pansikesuwi/30.jpg)
 ![soweli li lukin e pan suwi](/images/pansikesuwi/31.jpg)
-![soweli li lukin e pan suwi](/images/pansikesuwi/232.jpg)
+![soweli li lukin e pan suwi](/images/pansikesuwi/32.jpg)
 
 o pilin pona
 
