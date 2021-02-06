@@ -5,12 +5,12 @@ date: '2021-02-07'
 categories:
   - ma lon
   - sona kasi
-thumbnail: ../../../static/images/tomokasi/1.jpg
+thumbnail: "/images/tomokasi/1.jpg"
 ---
 
 lon ma Olako (Oracle) pi ma Alisona (Arizona, U.S.) la, ma pi telo ala en weka pi ijo ante ale la, tomo suli li lon. ona li tomo walo pi kiwen lukin mute. taso, ante tawa ni la insa ona li jo e ijo mute. insa ona, la kasi li lon! kasi mute en ma ante li lon insa pi tomo walo ni. jan li sona e tomo walo ni: ona li tomo kasi nanpa tu.
 
-![](../../../static/images/tomokasi/1.jpg) ![](../../../static/images/tomokasi/2.jpg)
+![](/images/tomokasi/1.jpg) ![](/static/images/tomokasi/2.jpg)
 
 *sewi nanpa wan: ni li lukin lon selo pi tomo kasi nanpa tu. sina ken lukin e poki suli pi kiwen lukin; ni li jo e kasi mute. poka ona la tomo lawa pi tomo ni li lon. jan li ken tawa lon tomo ni, li ken kama sona e sona pi tomo ni.*  
 *sewi nanpa tu: ni li lukin lon insa pi tomo kasi nanpa tu. ni li ma pi kasi mute, li ma suli tawa tomo ni.*  
@@ -24,7 +24,7 @@ suli la ijo ante ala li ken ante e insa tomo. tomo li ken lanpan e suno taso tan
 
 taso… ni li pali mute. tan seme la jan li wile pali e tomo suli pi kasi mute, li awen e ona kepeken ilo suli? o sona e tan ni pi tomo kasi ni: jan li wile sona e ijo lon ma suli. tomo ni li ken jasima lili e ma lon, la jan sona li ken kama sona e ijo tan tomo ni li ken kepeken e sona ni tawa ijo lon ma lon. pona la, tomo ni li pana e sona pi sike telo, pi kasi ante, pi nasin ma.
 
-![](../../../static/images/tomokasi/3.jpg) ![](../../../static/images/tomokasi/4.jpg)
+![](/static/images/tomokasi/3.jpg) ![](/static/images/tomokasi/4.jpg)
 
 *sewi nanpa wan: ni li lukin lon insa pi tomo kasi nanpa tu. ma ni li ma kasi telo. kasi pi ma ni li lon lawa telo.*  
 *sewi nanpa tu: ni li lukin lon insa pi tomo kasi nanpa tu. ni li ma pi telo lili, pi kasi lili.*  
@@ -40,7 +40,7 @@ weka kasi li suli tawa lon tomo. ona li weka ala e kasi ike la, ona li ken pakal
 
 taso, kulupu sona ni li kama sona e ijo suli ante: ona li awen lon tomo ni, lon poka pi jan sama, lon tenpo ale, la isipin ona li ken kama nasa. tenpo la, olin kulupu li pakala lili. ona li utala tan wile ona. taso, awen la, kulupu li awen lon tomo tan ni: ona ale li olin e pali ona, li olin e alasa sona, li wile e awen pi tomo ni.
 
-![](../../../static/images/tomokasi/5.jpg)
+![](/static/images/tomokasi/5.jpg)
 
 *sewi: ni li kulupu sona lon alasa sona ona. kulupu li lukin tan tomo, tawa jan pi ma lon.*
 
