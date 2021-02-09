@@ -31,7 +31,7 @@
         <div class="lt-article-card-row">
             <span class="lt-article-card-title" href="{{ .RelPermalink }}">{{ .Title }}</span>
             <div class="lt-article-card-row-spacer"></div>
-            {{ if .Params.author }}<span class="lt-article-card-author">tan {{ .Params.author }}</span>{{ end }}
+            {{ partial "author.html" .Params.author }}
         </div>
 
         <div class="lt-article-card-summary">

@@ -41,7 +41,7 @@
     <div class="lt-article-card-row">
         <h3 class="lt-article-card-title">{{ .Title }}</h3>
         <div class="lt-article-card-row-spacer"></div>
-        {{ if .Params.author }}<address class="lt-article-card-author">tan {{ .Params.author }}</address>{{ end }}
+        {{ partial "author.html" .Params.author }}
     </div>
 
     <div class="lt-article-card-summary">

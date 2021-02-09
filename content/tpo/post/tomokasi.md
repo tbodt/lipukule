@@ -1,6 +1,7 @@
 ---
 title: tomo kasi nanpa tu
-author: kule epiku Atawan
+author:
+  - kule epiku Atawan
 date: '2021-02-07'
 categories:
   - ma lon

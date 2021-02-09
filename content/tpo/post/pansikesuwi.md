@@ -1,6 +1,7 @@
 ---
 title: pan sike suwi
-author: jan Nijo
+author:
+  - jan Nijo
 date: '2021-02-04'
 categories:
   - moku

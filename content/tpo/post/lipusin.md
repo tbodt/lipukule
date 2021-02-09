@@ -1,6 +1,7 @@
 ---
 title: lipu kule li kama lon
-author: jan Ana
+author:
+  - jan Ana
 date: '2021-01-20'
 categories:
   - lipu ale

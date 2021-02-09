@@ -1,6 +1,7 @@
 ---
 title: monsutatesu
-author: kala pona Tonyu
+author:
+  - kala pona Tonyu
 date: '2021-01-29'
 categories:
   - nasin pi ma pona

@@ -1,6 +1,7 @@
 ---
 title: ijo lon pi lon ala
-author: kulupu En
+author:
+  - kulupu En
 date: '2021-02-01'
 categories:
   - sona nasin

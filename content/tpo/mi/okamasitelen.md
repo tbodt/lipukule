@@ -1,6 +1,7 @@
 ---
 title: o kama sitelen e lipu kule!
-author: jan pali pi lipu kule
+author:
+  - jan pali pi lipu kule
 date: '2021-01-27T17:12:00'
 categories:
   - lipu kule

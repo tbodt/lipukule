@@ -1,6 +1,7 @@
 ---
 title: kulupu pali pona
-author: jan Jan
+author:
+  - jan Jan
 date: '2021-01-25T6:35:40'
 categories:
   - ilo

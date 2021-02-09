@@ -1,6 +1,7 @@
 ---
 title: omekapo
-author: kala pona Tonyu
+author:
+  - kala pona Tonyu
 date: '2021-01-23'
 categories:
   - nasin pi ma pona
