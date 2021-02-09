@@ -18,10 +18,10 @@ kalama
 ![telo sewi li tawa sewi tomo la telo li tawa poki. poki ni li nasa e tawa telo li kalama a. kasi suli li lon. sitelen pona la kalama.](/images/teloma/3.jpg)
 
 kon
-![telo sewi li tawa ma la kon pimeja li kama lon li pona tawa pilin. sitelen pona la kon.](/images/teloma/3.jpg)
+![telo sewi li tawa ma la kon pimeja li kama lon li pona tawa pilin. sitelen pona la kon.](/images/teloma/4.jpg)
 
 telo li tan sewi
-![sewi pimeja la telo li tawa lukin. sitelen pona la telo li tan sewi.](/images/teloma/4.jpg)
+![sewi pimeja la telo li tawa lukin. sitelen pona la telo li tan sewi.](/images/teloma/5.jpg)
 
 lon ma mi
-![sewi pimeja li awen pana e telo mute. pipi sin li lon kasi. tomo li awen. sitelen pona la lon ma mi.](/images/teloma/5.jpg)
+![sewi pimeja li awen pana e telo mute. pipi sin li lon kasi. tomo li awen. sitelen pona la lon ma mi.](/images/teloma/6.jpg)
